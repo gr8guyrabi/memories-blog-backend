@@ -3,15 +3,16 @@
   "version": "1.0.0",
   "description": "Backend for memories-blog app",
   "main": "index.js",
-  "type": "module", 
+  "type": "module",
   "author": "Rabi Maharjan",
   "license": "MIT",
   "scripts": {
-      "start": "nodemon index.js"
+    "start": "nodemon index.js"
   },
   "dependencies": {
     "body-parser": "^1.19.2",
     "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "mongoose": "^6.2.8"
   },
